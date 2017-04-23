@@ -1,0 +1,341 @@
+/*img, embed, object, video{
+    max-width: 100%;
+}
+*/
+/** {
+    border: 1px solid red !important;
+}
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flexp{
+    display: flex;
+}
+
+.contain {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.menu-hero{
+    background-image: url("images/hitz_pool_and_snooker_home_page_banner.jpg");
+    height: 600px;
+    background-size: cover;
+}
+
+nav ul{
+    justify-content: flex-end;
+}
+
+nav ul li{
+    color: white;
+}
+
+nav ul li a{
+    padding: 20px;
+}
+
+.logo{
+    width: 150px;
+}
+
+header{
+    max-width: 1024px;
+    margin: auto;
+    height: 120px;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.hero{
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    padding: 0px 20px;
+}
+
+.best, .ddn{
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.pool-snooker{
+    font-size: 44px; 
+}
+
+.main-cta{
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #d38e16;
+    border: none;
+    border-radius: 4px;
+    margin-top: 6px;
+    color: #ffffff;
+}
+
+.facilities{
+    max-width: 1024px;
+    margin: auto;
+    height: 170px;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 26px;
+}
+.facilities div{
+    text-align: center;
+}
+.facilities div img{
+    margin-bottom: 8px;
+}
+
+.facilities-container{
+    padding: 0px 20px;
+    background-color: #0f0f0f;
+    font-size: 20px;
+    font-weight: 100;
+    color: #d38e16;
+}
+
+.contact-heading{
+    color: #d38e16;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+
+.contact-section{
+    background-color: #0f0f0f;
+    padding: 10px 20px 60px 20px;
+}
+
+.contact-wrapper{
+    justify-content: center;
+}
+
+.contact-form{
+    flex-direction: column;
+}
+
+.contact-form input{
+    margin: 5px;
+    border: 2px solid #d38e16;
+    border-radius: 10px;
+    height: 50px;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: #d38e16;
+    background-color: transparent;
+}
+
+.contact-form textarea{
+    margin: 5px;
+    border: 2px solid #d38e16;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: #d38e16;
+    background-color: transparent;
+}
+
+.contact-form textarea::-webkit-input-placeholder, .contact-form input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d38e16;
+  font-size: 14px;
+  font-weight: 100;
+}
+.contact-form textarea::-webkit-input-placeholder, .contact-form input::-moz-placeholder { /* Firefox 19+ */
+  color: #d38e16;
+  font-size: 14px;
+  font-weight: 100;
+}
+.contact-form textarea::-webkit-input-placeholder, .contact-form input:-ms-input-placeholder { /* IE 10+ */
+    color: #d38e16;
+  font-size: 14px;
+  font-weight: 100;
+}
+.contact-form textarea::-webkit-input-placeholder, .contact-form input:-moz-placeholder { /* Firefox 18- */
+  color: #d38e16;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+footer{
+    padding: 10px 40px;
+    color: #333333;
+}
+
+footer div h1{
+    font-size: 26px;
+}
+
+footer>div{
+    padding: 16px;
+/*    border-right: 2px solid #ccc;
+*/}
+
+footer>div:last-child{
+    border-right: none;
+}
+
+.footer-content, address{
+    font-size: 17px;
+}
+
+.border-span{
+    height: 90px;
+    width: 2px;
+    background-color: #ccc;
+    margin-top: 80px;
+}
+
+/*Media Queries for mobile*/
+
+@media screen and (max-width: 650px){
+    header{
+        display: block !important;
+        padding-top: 20px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .best, .ddn{
+        font-size: 18px;
+    }
+
+    .pool-snooker{
+        font-size: 20px;
+    }
+
+    .facilities{
+        display: block;
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .facilities>div{
+        margin-bottom: 40px;
+    }
+    .facilities div img{
+        width: 40px;
+    }
+
+    .contact-wrapper{
+        display: block;
+    }
+
+    .contact-wrapper>div{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .contact-wrapper div:nth-child(2){
+        text-align: center !important;
+    }
+
+    footer{
+        display: block !important;
+    }
+
+    footer>div{
+        width: 100% !important;
+    }
+}
+
+.social-icons a img{
+    width: 50px;
+}
+
+@media screen and (min-width: 1025px){
+    .menu-hero{
+        height: 100vh;
+    }
+    .hero{
+        margin-top: 200px;
+    }
+}

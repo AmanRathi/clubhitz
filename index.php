@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HITZ - Best Pool and Snooker in Dehradun</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+	<div>
+		<div class="menu-hero">
+			<header class="flexp">
+				<a href="#" class="col-3"><img class="logo" src="images/Hitz_Pool_snooker_Logo.png"></a>
+				<nav class="col-9">
+					<ul class="flexp">
+						<li>
+							<a href="https://goo.gl/maps/TqbXo76CRjN2" target="blank">Locate us on Map</a>
+						</li>
+						<li><a href="#contact-section-id">Contact Us</a></li>
+						<li>
+							<a href="https://www.facebook.com/HITZ-Pool-Snooker-Club-1830392247190931/" target="blank">Like us on FB</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<section class="hero flexp col-10">
+				<h1>
+					<span class="best">BEST</span><br>
+					<span class="pool-snooker">Pool and Snooker Club</span><br>
+					<span class="ddn">in Dehradun</span><br>
+					<a href="https://goo.gl/maps/TqbXo76CRjN2" target="blank">
+						<button class="main-cta">LOCATE US</button>
+					</a>
+				</h1>
+				
+			</section>
+		</div>
+
+		<!-- This is facilities section -->
+		<section class="facilities-container">
+			<div class="facilities flexp">
+				<div>
+					<img src="images/Hitz_pool_affordable_prices.png">
+					<div>Affordable Prices</div>
+				</div>
+				<div>
+					<img src="images/Hitz_pool_coldrinks.png">
+					<div>Cold Drinks</div>
+				</div>
+				<div>
+					<img src="images/Hitz_pool_ac.png">
+					<div>Air Conditioner</div>
+				</div>
+				<div>
+					<div style="font-size: 28px">9am - 9pm</div>
+					<div>Timings</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- This is gallery section -->
+		<section style="padding-bottom: 20px;">
+		<h1 style="text-align: center; color: #333333">Gallery</h1>
+						    <!-- #region Jssor Slider Begin -->
+			    <!-- Generator: Jssor Slider Maker -->
+			    <!-- Source: http://www.jssor.com -->
+			    <!-- This code works without jquery library. -->
+			    <script src="js/jssor.slider-22.0.15.min.js" type="text/javascript" data-library="jssor.slider" data-version="22.0.15"></script>
+			    <script type="text/javascript">
+			        jssor_1_slider_init = function() {
+
+			            var jssor_1_SlideshowTransitions = [
+			              {$Duration:1200,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+			              {$Duration:1200,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+			            ];
+
+			            var jssor_1_options = {
+			              $AutoPlay: true,
+			              $SlideshowOptions: {
+			                $Class: $JssorSlideshowRunner$,
+			                $Transitions: jssor_1_SlideshowTransitions,
+			                $TransitionsOrder: 1
+			              },
+			              $ArrowNavigatorOptions: {
+			                $Class: $JssorArrowNavigator$
+			              },
+			              $ThumbnailNavigatorOptions: {
+			                $Class: $JssorThumbnailNavigator$,
+			                $Cols: 10,
+			                $SpacingX: 8,
+			                $SpacingY: 8,
+			                $Align: 360
+			              }
+			            };
+
+			            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+			            /*responsive code begin*/
+			            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+			            function ScaleSlider() {
+			                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+			                if (refSize) {
+			                    refSize = Math.min(refSize, 800);
+			                    jssor_1_slider.$ScaleWidth(refSize);
+			                }
+			                else {
+			                    window.setTimeout(ScaleSlider, 30);
+			                }
+			            }
+			            ScaleSlider();
+			            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+			            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+			            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+			            /*responsive code end*/
+			        };
+			    </script>
+			    <style>
+			        /* jssor slider arrow navigator skin 05 css */
+			        /*
+			        .jssora05l                  (normal)
+			        .jssora05r                  (normal)
+			        .jssora05l:hover            (normal mouseover)
+			        .jssora05r:hover            (normal mouseover)
+			        .jssora05l.jssora05ldn      (mousedown)
+			        .jssora05r.jssora05rdn      (mousedown)
+			        .jssora05l.jssora05lds      (disabled)
+			        .jssora05r.jssora05rds      (disabled)
+			        */
+			        .jssora05l, .jssora05r {
+			            display: block;
+			            position: absolute;
+			            /* size of arrow element */
+			            width: 40px;
+			            height: 40px;
+			            cursor: pointer;
+			            background: url('img/a17.png') no-repeat;
+			            overflow: hidden;
+			        }
+			        .jssora05l { background-position: -10px -40px; }
+			        .jssora05r { background-position: -70px -40px; }
+			        .jssora05l:hover { background-position: -130px -40px; }
+			        .jssora05r:hover { background-position: -190px -40px; }
+			        .jssora05l.jssora05ldn { background-position: -250px -40px; }
+			        .jssora05r.jssora05rdn { background-position: -310px -40px; }
+			        .jssora05l.jssora05lds { background-position: -10px -40px; opacity: .3; pointer-events: none; }
+			        .jssora05r.jssora05rds { background-position: -70px -40px; opacity: .3; pointer-events: none; }
+			        /* jssor slider thumbnail navigator skin 01 css *//*.jssort01 .p            (normal).jssort01 .p:hover      (normal mouseover).jssort01 .p.pav        (active).jssort01 .p.pdn        (mousedown)*/.jssort01 .p {    position: absolute;    top: 0;    left: 0;    width: 72px;    height: 72px;}.jssort01 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort01 .w {    position: absolute;    top: 0px;    left: 0px;    width: 100%;    height: 100%;}.jssort01 .c {    position: absolute;    top: 0px;    left: 0px;    width: 68px;    height: 68px;    border: #000 2px solid;    box-sizing: content-box;    background: url('img/t01.png') -800px -800px no-repeat;    _background: none;}.jssort01 .pav .c {    top: 2px;    _top: 0px;    left: 2px;    _left: 0px;    width: 68px;    height: 68px;    border: #000 0px solid;    _border: #fff 2px solid;    background-position: 50% 50%;}.jssort01 .p:hover .c {    top: 0px;    left: 0px;    width: 70px;    height: 70px;    border: #fff 1px solid;    background-position: 50% 50%;}.jssort01 .p.pdn .c {    background-position: 50% 50%;    width: 68px;    height: 68px;    border: #000 2px solid;}* html .jssort01 .c, * html .jssort01 .pdn .c, * html .jssort01 .pav .c {    /* ie quirks mode adjust */    width /**/: 72px;    height /**/: 72px;}
+			    </style>
+			    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 800px; height: 456px; overflow: hidden; visibility: hidden; background-color: #24262e;">
+			        <!-- Loading Screen -->
+			        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+			            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+			            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+			        </div>
+			        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 800px; height: 356px; overflow: hidden;">
+			            <div data-p="144.50">
+			                <img data-u="image" src="img/01.jpg" />
+			                <img data-u="thumb" src="img/thumb-01.jpg" />
+			            </div>
+			            <a data-u="any" href="http://www.jssor.com" style="display:none">Image Gallery</a>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/02.jpg" />
+			                <img data-u="thumb" src="img/thumb-02.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/03.jpg" />
+			                <img data-u="thumb" src="img/thumb-03.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/04.jpg" />
+			                <img data-u="thumb" src="img/thumb-04.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/05.jpg" />
+			                <img data-u="thumb" src="img/thumb-05.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/06.jpg" />
+			                <img data-u="thumb" src="img/thumb-06.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/07.jpg" />
+			                <img data-u="thumb" src="img/thumb-07.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/08.jpg" />
+			                <img data-u="thumb" src="img/thumb-08.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/09.jpg" />
+			                <img data-u="thumb" src="img/thumb-09.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/10.jpg" />
+			                <img data-u="thumb" src="img/thumb-10.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/11.jpg" />
+			                <img data-u="thumb" src="img/thumb-11.jpg" />
+			            </div>
+			            <div data-p="144.50" style="display:none;">
+			                <img data-u="image" src="img/12.jpg" />
+			                <img data-u="thumb" src="img/thumb-12.jpg" />
+			            </div>
+			        </div>
+			        <!-- Thumbnail Navigator -->
+			        <div data-u="thumbnavigator" class="jssort01" style="position:absolute;left:0px;bottom:0px;width:800px;height:100px;" data-autocenter="1">
+			            <!-- Thumbnail Item Skin Begin -->
+			            <div data-u="slides" style="cursor: default;">
+			                <div data-u="prototype" class="p">
+			                    <div class="w">
+			                        <div data-u="thumbnailtemplate" class="t"></div>
+			                    </div>
+			                    <div class="c"></div>
+			                </div>
+			            </div>
+			            <!-- Thumbnail Item Skin End -->
+			        </div>
+			        <!-- Arrow Navigator -->
+			        <span data-u="arrowleft" class="jssora05l" style="top:158px;left:8px;width:40px;height:40px;"></span>
+			        <span data-u="arrowright" class="jssora05r" style="top:158px;right:8px;width:40px;height:40px;"></span>
+			    </div>
+			    <script type="text/javascript">jssor_1_slider_init();</script>
+			    <!-- #endregion Jssor Slider End -->
+		</section>
+
+		<!-- This is contact us section -->
+		<section class="contact-section" id="contact-section-id">
+			<h1 class="contact-heading">Contact us</h1>
+			<div class="flexp contact-wrapper">
+				<div class="col-5">
+					<form class="flexp contact-form" action="" method="post">
+                        <input type="text" placeholder="Your Name" name="name">
+                        <input type="text" placeholder="Mobile Number" name="mobile">
+                        <textarea rows="4" cols="50" placeholder="Tell us how can we help..." name="messagetext"></textarea>
+                        <input type="submit" name="submit" value="submit">
+                    </form>
+				</div>
+				<div style="text-align: right;" class="col-5">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3444.1459028415734!2d78.0016905!3d30.318367499999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092a3e1d528ccf%3A0xe5972d5999e359d7!2sHitz+Pool+and+Snooker+Club!5e0!3m2!1sen!2s!4v1483991652249" width="90%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+
+		<footer class="flexp">
+			<div class="col-4">
+				<h1>About us</h1>
+				<div class="footer-content">We are best pool and snooker club in Dehradun city, with more than five years of experience.
+				Our Tables are made with special Italian marvel, which provides amazing playing experince.
+				</div>
+			</div>
+			<span class="border-span"></span>
+			<div class="col-4">
+				<h1>Address</h1>
+				<address>
+					Hitz Snooker club, 595 Malik Chowk,</br>
+					Indera Nager, Dehradun-248002</br>
+					Uttarakhand
+				</address>
+			</div>
+			<span class="border-span"></span>
+			<div class="col-4">
+				<h1>Follow Us</h1>
+				<div class="social-icons">
+					<a href="https://www.facebook.com/HITZ-Pool-Snooker-Club-1830392247190931/"><img src="images/facebook.png"></a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
+
+
+<?php 
+if(isset($_POST['submit'])){
+    $to = "amanrathi@live.com"; // this is your Email address
+    $from = $_POST['info@clubhitz.in']; // this is the sender's Email address
+    $name = $_POST['name'];
+    $mobile = $_POST['mobile'];
+    $messagetext = $_POST['messagetext'];
+    $subject = "Form submission on clubhitz.in";
+    $subject2 = "Copy of your form submission";
+    $message = $name . " " . $mobile . " wrote the following:" . "\n\n" . $messagetext;
+
+    $message2 = "Here is a copy of your message " . $name . "\n\n" . $_POST['message'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
