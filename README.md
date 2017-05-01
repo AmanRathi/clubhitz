@@ -1,3 +1,4 @@
 # clubhitz.github.io
-Hitz club, Dehrdun website
-Website for Pool and Snnoker club
+Hitz club, Dehrdun website.
+
+Website for Pool and Snooker club
